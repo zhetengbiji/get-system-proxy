@@ -5,7 +5,8 @@
   "main": "out/index.js",
   "types": "out/index.d.ts",
   "scripts": {
-    "build": "tsc -p ./"
+    "build": "tsc -p ./",
+    "prepublishOnly": "pnpm build"
   },
   "keywords": [
     "os",
