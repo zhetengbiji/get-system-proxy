@@ -1,0 +1,32 @@
+{
+  "name": "get-system-proxy",
+  "version": "1.0.0",
+  "description": "Get system proxy for macOS/Windows.",
+  "main": "out/index.js",
+  "types": "out/index.d.ts",
+  "scripts": {
+    "build": "tsc -p ./"
+  },
+  "keywords": [
+    "os",
+    "network",
+    "proxy",
+    "agent",
+    "macOS",
+    "Windows"
+  ],
+  "author": "zhetengbiji",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhetengbiji/get-system-proxy.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zhetengbiji/get-system-proxy/issues"
+  },
+  "homepage": "https://github.com/zhetengbiji/get-system-proxy#readme",
+  "devDependencies": {
+    "@types/node": "^20.11.5",
+    "typescript": "^5.3.3"
+  }
+}
